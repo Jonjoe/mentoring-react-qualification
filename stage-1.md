@@ -6,8 +6,8 @@
 - Read and understand Typescript code
 - Understand interfaces and data types
 
-## Measure
-- Complete Typescript course
+## Instructions
+- Complete either the free or paid Typescript course ... or both ... thats cool too! 🤷
 
 Resources
 - [Typescript Website](https://www.typescriptlang.org/)
