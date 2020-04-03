@@ -11,5 +11,6 @@
 
 Resources
 - [Typescript Website](https://www.typescriptlang.org/)
-- [Udemy Course](https://www.udemy.com/course/understanding-typescript)
+- [Youtube Crash Course - FREE](https://www.youtube.com/watch?v=BwuLxPH8IDs)
+- [Udemy Course - PAID](https://www.udemy.com/course/understanding-typescript)
 
