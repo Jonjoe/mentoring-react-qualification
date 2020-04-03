@@ -15,7 +15,6 @@ UI elements. You need to understand how to work with React to create intuitive s
 ## Measure
 
 - Complete a course
-- Complete 3 workshops with Jonjoe
 - Build a small React app
 
 ## Resources
