@@ -1,5 +1,7 @@
-# Overview
+# [WIP] Overview
  
+**This course is a work in progress and should be ready by Monday 6th April 2020**
+
 As part of our re-platforming project, we are moving to a new technology stack that will set the blueprint for all future web-based projects and define a new standard of excellence.
 
 - **Stage 1**: Typescript Proficiency
