@@ -1,17 +1,14 @@
-import Pages from "pages";
-import constants from "config/constants";
+// import Pages from "pages";
+// import constants from "config/constants";
 
-const routes = [
-  {
-    path: constants.ROUTES.HOME,
-    exact: true,
-    component: Pages.Home
-  },
-  {
-    path: constants.ROUTES.LOGIN,
-    exact: true,
-    component: Pages.Login
-  }
-];
+//const routes = [
+  //{
+    //path: constants.ROUTES.HOME,
+    //exact: true,
+    //component: Pages.Home
+  //}
+//];
+
+const routes = "no routes yet"
 
 export default routes;
