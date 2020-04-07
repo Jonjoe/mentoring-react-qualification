@@ -48,7 +48,7 @@ This course assumes a certain level of knowledge. This is not a 0 to mastery cou
 - Exposure to Javascript frameworks
 - Exposure to API’s and Async work flows
 
-#### Tips
+# Tips
 - There is an easter egg somewhere in this project. 
 - The code is heavily commented please feel free to read through it. 
 - Remember to take the app you build in each section to the next section to continue its evolution.
