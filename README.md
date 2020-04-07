@@ -5,6 +5,7 @@ This course is completely free and hosting on github. Its main intention is to t
 **Stage 1**: Typescript Proficiency
 
 in this stage you will consume the vaarious pieces of media to develop a good basic working understanding of Typescript and how its used.
+
 **Stage 2**: React API Proficiency
 
 In this section you will build a bare bones github app using react in its simplest form.
