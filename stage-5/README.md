@@ -8,6 +8,7 @@ Testing is super important inside a UI project as they can become very complex. 
 ## Instructions
 - Review the posts and media
 - Abstract logic into pure functions and test them
+- Create React app ships with Jest and typescript support built in so no config required!
 - Generate snapshots and write tests for components and views. For example:
 ```
  src/
@@ -23,13 +24,12 @@ Testing is super important inside a UI project as they can become very complex. 
       ...
     ...
 ```
+If you get lost please see the code folder for a working example
 
 ## Outcomes
 - Understand AAA
 - Understand how to use snapshots\
 - Understand how to write production code that's easily testable
-
-
 
 ## Resources
 - [AAA Testing Pattern](https://medium.com/@pjbgf/title-testing-code-ocd-and-the-aaa-pattern-df453975ab80)
