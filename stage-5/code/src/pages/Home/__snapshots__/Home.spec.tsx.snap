@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Homepage renders as expected 1`] = `
+<main
+  className="sc-AxhCb szNEq"
+>
+  <div
+    className="sc-AxjAm jgeyuh"
+  >
+    <input
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+  <div
+    className="sc-AxirZ hhwjIp"
+  >
+    <p>
+      Loading ...
+    </p>
+  </div>
+</main>
+`;

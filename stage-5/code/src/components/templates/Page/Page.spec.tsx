@@ -3,7 +3,7 @@ import renderer from "react-test-renderer";
 
 import Page from "./Page.component";
 
-test("Link changes the class when hovered", () => {
+test("Page renders as expected", () => {
   const component = renderer.create(
     <Page>
       <p>this is some content</p>

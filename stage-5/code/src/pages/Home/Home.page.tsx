@@ -17,6 +17,11 @@ async function asyncGetRepos() {
   return response.json();
 }
 
+// Logic abstracted away from presentational components. The list renderes a list and thats it.
+export function filterRepos(repos: any[], searchTerm: string) {
+  return repos.filter((repo: any) => repo.name.includes(searchTerm));
+}
+
 function HomePage() {
   const [searchTerm, setSearchTerm] = React.useState("");
   const [repos, setRepos] = React.useState([]);
@@ -29,11 +34,6 @@ function HomePage() {
     });
   }, []);
 
-  // Logic abstracted away from presentational components. The list renderes a list and thats it. 
-  const filteredRepos: any = repos.filter((repo: any) =>
-    repo.name.includes(searchTerm)
-  );
-
   return (
     /* Page is a Template component responsible for macro layout */
     <Page>
@@ -45,7 +45,7 @@ function HomePage() {
 
       {/* Example of the only kind of logic allowed in the render */}
       {/* if we abstracted this away we would lose the structure of the component and the complexity will cause problems.*/}
-      {reposLoading ? <Loader /> : <List data={filteredRepos} />}
+      {reposLoading ? <Loader /> : <List data={filterRepos(repos, searchTerm)} />}
     </Page>
   );
 }

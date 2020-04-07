@@ -9,8 +9,8 @@ function List(props: ListProps): JSX.Element {
   const { data } = props;
   return (
     <Styled.Container>
-      {data.map((repo: any) => (
-        <li>
+      {data.map((repo: any, index: number) => (
+        <li key={index}>
           <a href={repo.html_url}>{repo.name}</a>
         </li>
       ))}
