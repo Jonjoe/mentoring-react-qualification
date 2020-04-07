@@ -3,6 +3,14 @@
 React is a view library that utilises an XML based syntax (JSX) to represent DOM-based
 UI elements. You need to understand how to work with React to create intuitive slick UI
 
+## Instructions
+
+- Read and understand create-react-app
+- Use Create React App to generate a Typescript base project
+- Commit this generated project into a git repo
+- Build an application to stage 2 specifications (see specifications.md)
+- Commit build into repo
+
 ## Outcomes
 
 - Understand JSX
@@ -11,14 +19,6 @@ UI elements. You need to understand how to work with React to create intuitive s
 - Async calls inside React components
 - How do we make components work together?
 - What developer tools are available?
-
-## Instructions
-
-- Read and understand create-react-app
-- Use Create React App to generate a Typescript base project
-- Commit this generated project into a git repo
-- Build an application to stage 2 specifications
-- Commit build into repo
 
 ## Resources
 
