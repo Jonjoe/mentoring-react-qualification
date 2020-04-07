@@ -9,8 +9,6 @@
 ## Instructions
 - Complete either the free or paid Typescript course ... or both ... thats cool too! 🤷
 
-Resources
+## Resources
 - [Typescript Website](https://www.typescriptlang.org/)
-- [Youtube Crash Course - FREE](https://www.youtube.com/watch?v=BwuLxPH8IDs)
-- [Udemy Course - PAID](https://www.udemy.com/course/understanding-typescript)
-
+- [Youtube Crash Course](https://www.youtube.com/watch?v=BwuLxPH8IDs)
