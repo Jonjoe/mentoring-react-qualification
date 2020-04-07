@@ -1,6 +1,6 @@
 # Overview
 
-As part of our re-platforming project, we are moving to a new technology stack that will set the blueprint for all future web-based projects and define a new standard of excellence.
+This course is completely free and hosting on github. Its main intention is to take an engineer with intermediate to good javascript skkills and turn them into a React/Typescript badass. The course contains 5 sections.
 
 - **Stage 1**: Typescript Proficiency
 - **Stage 2**: React API Proficiency
@@ -8,7 +8,9 @@ As part of our re-platforming project, we are moving to a new technology stack t
 - **Stage 4**: Storybooks API Proficiency
 - **Stage 5**: Testing Approach & Patterns
 
-Typescript is a superset of utilities and API/Syntax extensions to Javascript that empower engineers to write clean and well-written code.
+From section 2 you will take the app you worked on and evolve it one step at a time. The code folder will give you an example of the expected end result. 
+
+Please post any issues you have with the example code, course format or typos ... typos are my thing ... 
 
 ## Assumptions
 
@@ -26,3 +28,8 @@ This course assumes a certain level of knowledge. This is not a 0 to mastery cou
 - Exposure to Typescript
 - Exposure to Javascript frameworks
 - Exposure to API’s and Async work flows
+
+#### Tips
+- There is an easter egg somewhere in this project. 
+- The code is heavily commented please feel free to read through it. 
+- Remember to take the app you build in each section to the next section to continue its evolution.
