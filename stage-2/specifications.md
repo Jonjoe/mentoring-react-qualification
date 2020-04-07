@@ -5,7 +5,7 @@
 
 **In App.tsx**
 - Replace the returned JSX with `<p>hello world</p>`
-- make an Async call function to github to retrieve your github repos. for example if I wanted to get mine I could use `GET https://api.github.com/users/Jonjoe/repos`
+- Make an Async call function to github to retrieve your github repos. for example if I wanted to get mine I could use `GET https://api.github.com/users/Jonjoe/repos`
 - In the returned JSX create an input field and a dummy list
 - Store the input fields value in App's state
 - Implement useEffect to call your async function and store the returned data into state
