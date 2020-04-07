@@ -1,5 +1,3 @@
-# Overview
-
 This course is completely free and hosting on github. Its main intention is to take an engineer with intermediate to good javascript skkills and turn them into a React/Typescript badass. The course contains 5 sections.
 
 From section 2 you will take the app you worked on and evolve it one step at a time. The code folder will give you an example of the expected end result. 
