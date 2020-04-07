@@ -2,6 +2,8 @@
 
 This course is completely free and hosting on github. Its main intention is to take an engineer with intermediate to good javascript skkills and turn them into a React/Typescript badass. The course contains 5 sections.
 
+### Breakdown
+
 **Stage 1**: Typescript Proficiency
 
 in this stage you will consume the vaarious pieces of media to develop a good basic working understanding of Typescript and how its used.
