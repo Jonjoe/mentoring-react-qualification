@@ -8,13 +8,7 @@ Testing is super important inside a UI project as they can become very complex. 
 ## Instructions
 - Review the posts and media
 - Abstract logic into pure functions and test them
-- Generate snapshots and write tests for components and views. for example:
-
-
-## Outcomes
-- Understand AAA
-- Understand how to use snapshots\
-- Understand how to write production code that's easily testable
+- Generate snapshots and write tests for components and views. For example:
 ```
  src/
     components/
@@ -29,6 +23,12 @@ Testing is super important inside a UI project as they can become very complex. 
       ...
     ...
 ```
+
+## Outcomes
+- Understand AAA
+- Understand how to use snapshots\
+- Understand how to write production code that's easily testable
+
 
 
 ## Resources
