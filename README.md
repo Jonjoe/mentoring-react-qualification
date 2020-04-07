@@ -10,12 +10,15 @@ in this stage you will consume the vaarious pieces of media to develop a good ba
 In this section you will build a bare bones github app using react in its simplest form.
 
 - **Stage 3**: Understanding Atomic & SOLID Patterns
+
 In this stage you will take your github app, style it and apply atomic and SOLID design principles.
 
 - **Stage 4**: Storybooks API Proficiency
+
 In this stage you will continue the evolution of your app by adding storybooks to it
 
 - **Stage 5**: Testing Approach & Patterns
+
 In the final stage we will abstract fucntions and apply testing practises.
 
 
