@@ -5,15 +5,31 @@ Testing is super important inside a UI project as they can become very complex. 
 - Heavy abstraction in the render of a react component
 - Understanding pure functions and why they are important and how to test them
 
+## Instructions
+- Review the posts and media
+- Abstract logic into pure functions and test them
+- Generate snapshots and write tests for components and views. for example:
+
+
 ## Outcomes
 - Understand AAA
 - Understand how to use snapshots\
 - Understand how to write production code that's easily testable
+```
+ src/
+    components/
+      atoms/
+        Button/
+          __snapshots__ <-- Generated folder for snapshots.
+          Button.component.tsx. <-- component code here
+          Button.styles.tsx. <-- component styles here
+          Button.stories.tsx. <-- component storybook
+          Button.spec.tsx. <-- component tests
+        ...
+      ...
+    ...
+```
 
-## Measure
-- Add tests to your react app
-- Abstract logic into pure functions and test them
-- Generate snapshots for components and views
 
 ## Resources
 - [AAA Testing Pattern](https://medium.com/@pjbgf/title-testing-code-ocd-and-the-aaa-pattern-df453975ab80)
