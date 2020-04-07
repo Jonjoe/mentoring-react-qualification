@@ -12,4 +12,4 @@
 - Remove the dummy list items in your JSX list and map the API data to a list item
 - Add a filter to filter the api data by search term
 
-if you get stuck you can look at the App.tsx in the code folder of this section for a heavily documented implementation.
+If you get stuck you can look at the App.tsx in the code folder of this section for a heavily documented implementation.
