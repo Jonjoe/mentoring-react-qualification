@@ -1,12 +1,19 @@
 import React from "react";
 import renderer from "react-test-renderer";
 
+import { Repo } from "../../../modules/api/github";
+
 import List from "./List.component";
 
 test("List renders as expected", () => {
-  const component = renderer.create(
-    <List data={["this", "is", "a", "list"]} />
-  );
+  const data = [
+    { name: "this" },
+    { name: "is" },
+    { name: "a" },
+    { name: "list" }
+  ] as Repo[];
+
+  const component = renderer.create(<List data={data} />);
 
   const tree = component.toJSON();
 

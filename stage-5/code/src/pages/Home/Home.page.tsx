@@ -1,21 +1,12 @@
 import React from "react";
 
+// Abstract the api call into its own service including its own types
+import { Repo } from "../../modules/api/github"
+import { github } from "../../modules/api"
+
 // Everything imported from a centeral registry
 import { Input, Loader, Page, List } from "../../components";
 
-async function asyncGetRepos() {
-  const queryUrl = "https://api.github.com/users/jonjoe/repos?per_page=100";
-
-  const queryOptions = {
-    headers: {
-      Accept: "application/vnd.github.mercy-preview+json"
-    }
-  };
-
-  const response = await fetch(queryUrl, queryOptions);
-
-  return response.json();
-}
 
 // Logic abstracted away from presentational components. The list renderes a list and thats it.
 export function filterRepos(repos: any[], searchTerm: string) {
@@ -24,12 +15,12 @@ export function filterRepos(repos: any[], searchTerm: string) {
 
 function HomePage() {
   const [searchTerm, setSearchTerm] = React.useState("");
-  const [repos, setRepos] = React.useState([]);
+  const [repos, setRepos] = React.useState<Repo[]>([]);
   const [reposLoading, setReposLoading] = React.useState(true);
 
   React.useEffect(() => {
-    asyncGetRepos().then(data => {
-      setRepos(data);
+    github.asyncGetRepos().then((repos: Repo[]) => {
+      setRepos(repos);
       setReposLoading(false);
     });
   }, []);
