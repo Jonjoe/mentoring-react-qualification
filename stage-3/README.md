@@ -18,6 +18,7 @@ When creating UI it's important to know what constitutes a component and what do
       atoms/
       molecules/
       organisms/
+      templates/
       index.ts
     ...
   ...
