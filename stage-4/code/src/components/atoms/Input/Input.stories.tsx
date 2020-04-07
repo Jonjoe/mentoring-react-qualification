@@ -4,6 +4,6 @@ import { storiesOf } from "@storybook/react";
 
 import Input from "./Input.component";
 
-storiesOf("<Input />", module).add("default", () => (
+storiesOf("Input", module).add("default", () => (
   <Input onChange={() => null} value="hello" />
 ));
