@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link changes the class when hovered 1`] = `
+<div
+  className="sc-AxjAm jgeyuh"
+>
+  <input
+    onChange={[Function]}
+    value="Example Value"
+  />
+</div>
+`;

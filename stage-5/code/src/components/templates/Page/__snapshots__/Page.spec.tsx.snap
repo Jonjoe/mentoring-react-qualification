@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link changes the class when hovered 1`] = `
+<main
+  className="sc-AxjAm jFTkVl"
+>
+  <p>
+    this is some content
+  </p>
+</main>
+`;
