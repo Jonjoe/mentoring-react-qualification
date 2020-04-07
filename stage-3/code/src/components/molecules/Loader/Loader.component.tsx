@@ -1,13 +1,12 @@
 import React from "react";
+import * as Styled from "./Loader.styles";
 
-interface LoaderProps {}
-
-function Loader(props: LoaderProps): JSX.Element {
+function Loader(): JSX.Element {
   return (
-    <div>
+    <Styled.Container>
       <p>Loading ...</p>
-    </div>
+    </Styled.Container>
   );
 }
 
-export default Loader as React.FC<LoaderProps>;
+export default Loader as React.FC;
