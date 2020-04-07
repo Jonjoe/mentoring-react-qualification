@@ -2,11 +2,6 @@
 
 When creating UI it's important to know what constitutes a component and what does not. Where does a components single responsibility begin and end? How do we create components that make logical sense and follow a pattern we can move forward with intuitively? Atomic design patterns and SOLID engineering principles help with this significantly.
 
-## Outcomes
-
-- Understand the difference between Atoms, Molecules and Organisms
-- Understand the SOLID principles and how they relate to react
-
 ## Instructions
 
 - Read the blog posts and develop an understanding of these concepts
@@ -19,7 +14,6 @@ When creating UI it's important to know what constitutes a component and what do
       molecules/
       organisms/
       templates/
-      index.ts
     ...
   ...
 ```
@@ -31,14 +25,22 @@ When creating UI it's important to know what constitutes a component and what do
     components/
       atoms/
         Button/
-          index.ts <-- generate a default import
           Button.component.tsx. <-- component code here
           Button.styles.tsx. <-- component styles here
         ...
       ...
-    ...
+    .
+    
+    ..
   ...
 ```
+
+If you get lost please see the code folder for a working example
+
+## Outcomes
+
+- Understand the difference between Atoms, Molecules and Organisms
+- Understand the SOLID principles and how they relate to react
 
 ## Resources
 
