@@ -1,4 +1,4 @@
-# React Typescript Qualification
+# React & Typescript Qualification
 
 This course is completely free and hosting on github. Its main intention is to take an engineer with intermediate to good javascript skkills and turn them into a React/Typescript badass. The course contains 5 sections.
 
