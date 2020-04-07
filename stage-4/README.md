@@ -6,6 +6,23 @@ The Storybooks system allows us to showcase UI components in isolation in a libr
 - Stakeholders can see demos of components in isolation
 - Components are built in isolation from the rest of the app ensuring a decoupled and independent final result.
 
+## Instructions
+
+- Follow the Storybooks + Typescript + React Guide
+- Add stories to each component. For example:
+ src/
+    components/
+      atoms/
+        Button/
+          Button.component.tsx. <-- component code here
+          Button.styles.tsx. <-- component styles here
+          Button.stories.tsx. <-- component storybook
+        ...
+      ...
+    .
+
+If you get lost please see the code folder for a working example
+
 ## Outcomes
 
 - Understand storybooks as a technology
@@ -13,9 +30,7 @@ The Storybooks system allows us to showcase UI components in isolation in a libr
 - Understand how to develop components inside storybooks
 - Understand how to document components engineered inside storybooks.
 
-## Measure
 
-Add storybooks to the react app and move the atomic components inside.
 
 ## Resources
 
