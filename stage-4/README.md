@@ -10,6 +10,7 @@ The Storybooks system allows us to showcase UI components in isolation in a libr
 
 - Follow the Storybooks + Typescript + React Guide
 - Add stories to each component. For example:
+```
  src/
     components/
       atoms/
@@ -19,7 +20,8 @@ The Storybooks system allows us to showcase UI components in isolation in a libr
           Button.stories.tsx. <-- component storybook
         ...
       ...
-    .
+    ...
+```
 
 If you get lost please see the code folder for a working example
 
