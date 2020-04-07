@@ -1,7 +1,7 @@
 import React from "react";
 
 // Everything imported from a centeral registry
-import { Input, Loader, Page, List } from "./components";
+import { Input, Loader, Page, List } from "../../components";
 
 async function asyncGetRepos() {
   const queryUrl = "https://api.github.com/users/jonjoe/repos?per_page=100";
@@ -17,7 +17,7 @@ async function asyncGetRepos() {
   return response.json();
 }
 
-function App() {
+function HomePage() {
   const [searchTerm, setSearchTerm] = React.useState("");
   const [repos, setRepos] = React.useState([]);
   const [reposLoading, setReposLoading] = React.useState(true);
@@ -50,4 +50,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomePage;
