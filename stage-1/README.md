@@ -1,13 +1,13 @@
 # Stage 1 - Typescript
 
+## Instructions
+- Complete Typescript course ... thats it really 🤷
+
 ## Outcomes
 
 - Solid foundation in Typescript
 - Read and understand Typescript code
 - Understand interfaces and data types
-
-## Instructions
-- Complete either the free or paid Typescript course ... or both ... thats cool too! 🤷
 
 ## Resources
 - [Typescript Website](https://www.typescriptlang.org/)
