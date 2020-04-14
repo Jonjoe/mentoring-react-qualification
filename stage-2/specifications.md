@@ -1,11 +1,11 @@
 # React App Specifications
 
-- Create a react app using CRA (Create React App) with the Typescript template. https://create-react-app.dev/docs/adding-typescript/
-- Delete the css and SVg files and remove the references from App and index
+- Create a react app using CRA (Create React App) with the Typescript template. https://create-react-app.dev/docs/adding-typescript/.
+- Delete the CSS and SVG files and remove the references from App and index.
 
 **In App.tsx**
 - Replace the returned JSX with `<p>hello world</p>`
-- Make an Async call function to github to retrieve your github repos. for example if I wanted to get mine I could use `GET https://api.github.com/users/Jonjoe/repos`
+- Make an async function that makes an API call to Github to retrieve your github repos. For example if I wanted to get mine I could use `GET https://api.github.com/users/Jonjoe/repos`
 - In the returned JSX create an input field and a dummy list
 - Store the input fields value in App's state
 - Implement useEffect to call your async function and store the returned data into state
