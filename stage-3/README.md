@@ -2,6 +2,8 @@
 
 When creating UI it's important to know what constitutes a component and what does not. Where does a components single responsibility begin and end? How do we create components that make logical sense and follow a pattern we can move forward with intuitively? Atomic design patterns and SOLID engineering principles help with this significantly.
 
+One technology we will be using to assist us work more atomically is `styled-components`. This allows us to turn pieces of css into composiable components. We use this in place of tooling like `scss` as it better leverales React's strengths and allows us to follow our established patterns more closly. 
+
 ## Instructions
 
 - Read the blog posts and develop an understanding of these concepts
@@ -47,3 +49,5 @@ If you get lost please see the code folder for a working example
 - [SOLID and React](https://medium.com/@jaymykels69/s-o-l-i-d-principles-with-react-cd43fc93b1be)
 - [Atomic Design as a concept](https://bradfrost.com/blog/post/atomic-web-design/)
 - [Atomic and React](https://blog.usejournal.com/thinking-about-react-atomically-608c865d2262)
+- [Styled Components Library](https://styled-components.com/)
+- [Styled Components Crash Course](https://www.youtube.com/watch?v=syqw5UJrfoc)
