@@ -42,6 +42,7 @@ If you get lost please see the code folder for a working example
 ## Outcomes
 
 - Understand the difference between Atoms, Molecules and Organisms
+- Understand the  basics of the Styled Components library
 - Understand the SOLID principles and how they relate to react
 
 ## Resources
