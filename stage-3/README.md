@@ -51,5 +51,6 @@ If you get lost please see the code folder for a working example
 - [Atomic Design as a concept](https://bradfrost.com/blog/post/atomic-web-design/)
 - [Atomic and React](https://blog.usejournal.com/thinking-about-react-atomically-608c865d2262)
 - [Styled Components Library](https://styled-components.com/)
-- [Styled Components Crash Course](https://www.youtube.com/watch?v=syqw5UJrfoc)
+- [Styled Components Crash Course](https://youtu.be/3SpAg5tr7Ws)
+
 - [Styled Components Syntax Highlighting](https://styled-components.com/docs/tooling#syntax-highlighting)
