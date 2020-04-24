@@ -1,6 +1,6 @@
 # React & Typescript Qualification
 
-This course is completely free and hosted on github. Its main intention is to take an engineer with intermediate to good Javascript skills and turn them into a React/Typescript badass. The course contains 5 sections each focusing on a different area and technology. Once this course is complete you will have enough knowledge and context to pick up other technologies and grow your React toolbelt.
+This course is completely free and hosted on github. Its main intention is to take an engineer with some experience in Javascript and turn them into a React/Typescript badass. The course contains 5 sections each focusing on a different area and technology. Once this course is complete you will have enough knowledge and context to pick up other technologies and grow your React toolbelt.
 
 From section 2 you will take the app you worked on and evolve it one step at a time. The code folder will give you an example of the expected end result. 
 
@@ -35,7 +35,7 @@ This course assumes a certain level of knowledge. This is not a 0 to mastery cou
 
 #### Required:
 
-- Basic to Intermediate Javascript
+- Some experience with Javascript
 - Good understanding of HTML and CSS
 - Understanding of the Browser > Server relationship
 - Understanding of Git, Github/Bitbucket and their surrounding workflows
